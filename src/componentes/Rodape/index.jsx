@@ -12,9 +12,9 @@ const Rodape = () => {
     return (
         <footer>
             <img src={Logo} alt="logomarca" />
-            <p>Ajudamos a criar uma personalidade digital constrindo sua marca no ambiente online utizando estratégias, ferramentas tecnologias personalizadas.</p>
+            <p>Ajudamos a criar uma personalidade digital construindo sua marca no ambiente online utizando estratégias, ferramentas e tecnologias personalizadas.</p>
 
-            <div>
+            <div className="iconesRedesSociais">
                 <img src={IconeFacebook} alt="Icone facebook" />
                 <img src={IconeTwitter} alt="Icone twitter" />
                 <img src={IconeLinkedIn} alt="Icone linkedIn" />
@@ -23,7 +23,7 @@ const Rodape = () => {
                 <img src={IconeGooglePlus} alt="Icone Google+" />
             </div>
 
-            <p>Copyright 2024 &copy; <span>Vanilo Ferreira</span></p>
+            <p>Copyright 2024 &copy; <span className="nomeDev">Vanilo Ferreira</span></p>
         </footer>
     )
 };

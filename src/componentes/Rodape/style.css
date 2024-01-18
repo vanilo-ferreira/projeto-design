@@ -1,0 +1,32 @@
+footer img{
+    height: auto;
+    width: auto;
+}
+
+footer {
+    margin: 80px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+}
+
+footer p{
+    color: #8a8fa3;
+    margin: 20px 29%;
+    text-align: center;
+}
+
+.iconesRedesSociais {
+    display: flex;
+    margin: 20px;
+}
+
+.iconesRedesSociais img {
+    height: 45px;
+    margin: 0 5px;
+}
+
+.nomeDev {
+    color: #feb633;
+}
