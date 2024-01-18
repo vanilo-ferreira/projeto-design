@@ -3,13 +3,14 @@ import './App.css';
 
 import Topo from './componentes/Topo';
 import SecaoBanner from './componentes/SecaoBanner';
+import SecaoExperienciaTrabalho from './componentes/SecaoExperienciaTrabalho';
 
 function App() {
   return (
     <div className="">
-      <Topo /> 
+      <Topo />
       <SecaoBanner />
-
+      <SecaoExperienciaTrabalho />
     </div>
   );
 }
