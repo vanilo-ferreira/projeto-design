@@ -1,0 +1,36 @@
+.secaoBanner {
+    display: flex;
+    flex-direction: row;
+}
+
+.imagemBanner {
+    background: no-repeat url("../../assets/banner.png") center / contain;
+    min-height: 80vh;
+    min-width: 50%;
+}
+
+.secaoBannerInformacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fafbfc;
+    min-width: 50%;
+}
+
+.secaoBannerInformacoes div {
+    color: #022144;
+    margin-left: 20px;
+}
+
+.secaoBannerInformacoes p {
+    font-size: 20px;
+}
+
+.secaoBannerInformacoes h2 {
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.textoDestaque {
+    font-weight: bold;
+}
