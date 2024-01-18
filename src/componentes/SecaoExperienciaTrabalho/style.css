@@ -1,0 +1,68 @@
+.secaoExperienciaTrabalho {
+    background-color: #f6f8fc;
+    padding: 10px;
+}
+
+.secaoExperienciaTrabalhoInfo {
+    margin: 60px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secaoExperienciaTrabalhoInfo h2 {
+    position: relative;
+    color: #32333c;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.secaoExperienciaTrabalhoInfo h2::before {
+    content: "";
+    position: absolute;
+    width: 20%;
+    height: 2px;
+    background: #feb633;
+    bottom: -20px;
+    left: 40%;
+}
+
+.secaoExperienciaTrabalhoInfo p {
+    color: #8a8fa3;
+    margin: 0 18%;
+    text-align: center;
+}
+
+.grupoCards {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.card {
+    height: 300px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #edecec;
+    padding: 0 20px;
+}
+
+.card:hover {
+    border-color: #feb633;
+}
+
+.card h3 {
+    color: #32333c;
+    margin: 10px 0;
+}
+
+.card p {
+    color: #8a8fa3;
+    font-size: 12px;
+}
+
+.card p:last-child {
+    margin-top: 20px;
+}
