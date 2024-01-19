@@ -1,6 +1,13 @@
 .secaoExperienciaTrabalho {
-    background-color: #f6f8fc;
     padding: 10px;
+}
+
+.bg-light {
+    background-color: #f6f8fc;
+}
+
+.bg-dark {
+    background-color: #393838;
 }
 
 .secaoExperienciaTrabalhoInfo {
@@ -11,8 +18,7 @@
 }
 
 .secaoExperienciaTrabalhoInfo h2 {
-    position: relative;
-    color: #32333c;
+    position: relative;  
     font-size: 50px;
     margin-bottom: 50px;
 }
@@ -28,9 +34,20 @@
 }
 
 .secaoExperienciaTrabalhoInfo p {
-    color: #8a8fa3;
     margin: 0 18%;
     text-align: center;
+}
+
+.subtitulo-color-light {
+    color: #32333c;
+}
+
+.paragrafo-color-light {
+    color: #8a8fa3;
+}
+
+.color-dark {
+    color: #cccccc;
 }
 
 .grupoCards {

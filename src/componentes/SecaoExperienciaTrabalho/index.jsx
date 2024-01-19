@@ -3,10 +3,10 @@ import Card from "../Card";
 
 const SecaoExperienciaTrabalho = () => {
     return (
-        <section className="secaoExperienciaTrabalho">
+        <section className="secaoExperienciaTrabalho bg-dark">
             <div className="secaoExperienciaTrabalhoInfo">
-                <h2>Experiências De Trabalho</h2>
-                <p>
+                <h2 className="color-dark">Experiências De Trabalho</h2>
+                <p className="color-dark">
                     Há mais de 10 anos no mercado de Branding, Design Gráfico, Criação de Sites e Marketing Digital,
                     nos empenhamos diariamente para entregar resultados que tragam impacto aos nossos clientes.
                 </p>
