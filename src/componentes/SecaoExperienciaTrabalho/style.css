@@ -58,6 +58,10 @@
     margin: 10px 0;
 }
 
+.secaoExperienciaTrabalhoInfo {
+    margin: 60px 0;
+}
+
 .card p {
     color: #8a8fa3;
     font-size: 12px;
@@ -65,4 +69,24 @@
 
 .card p:last-child {
     margin-top: 20px;
+}
+
+
+@media (max-width: 738px) {
+    .grupoCards{
+        flex-direction: column;
+    }
+
+    .card {
+        width: auto;
+    }
+
+    .secaoExperienciaTrabalhoInfo p {
+        margin: 0 10px;
+        font-size: 14px;
+    }
+
+    .card p {
+        font-size: 14px;
+    }
 }

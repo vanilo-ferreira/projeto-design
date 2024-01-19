@@ -30,3 +30,14 @@ footer p{
 .nomeDev {
     color: #feb633;
 }
+
+
+@media (max-width: 738px) {
+    footer {
+        margin: 80px 0;
+    }
+
+    footer p{
+        margin: 20px 10%;
+    }
+}
