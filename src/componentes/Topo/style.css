@@ -1,12 +1,18 @@
-.topo {
+.topo-light{
     background-color: #fff;
 }
+
+.topo-dark {
+    background-color: #252525;
+}
+
 
 header {
     display: flex;
     justify-content: space-between;
-    margin: 10px 20px;
+    padding: 10px 20px;
     min-height: 50px;
+    min-width: 100%;
 }
 
 header img {
@@ -20,12 +26,21 @@ button img {
 button {
     width: 40px;
     height: 40px;
-    border: 2px solid #747272;
+    border-style: solid;
+    border-width: 2px;
     border-radius: 50px;
     padding: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: transparent;
+}
+
+.button-light {
+    border-color: #747272;
+}
+
+.button-dark {
+    border-color: #fff;
 }
 

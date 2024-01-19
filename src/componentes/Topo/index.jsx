@@ -1,14 +1,15 @@
 import "./style.css";
 import logo from '../../assets/logo.png';
-import iconeLua from '../../assets/moon.png';
+//import iconeLua from '../../assets/moon.png';
+import iconeSol from '../../assets/sun.png';
 
 const Topo = () => {
 
     return (
-        <header className="topo">
+        <header className="topo-dark">
             <img src={logo} alt="logomarca" />
-            <button>
-                <img src={iconeLua} alt="icone" />
+            <button className="button-dark">
+                <img src={iconeSol} alt="icone" />
             </button>
         </header>
     )
