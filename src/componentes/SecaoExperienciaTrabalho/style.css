@@ -39,36 +39,8 @@
     margin-bottom: 40px;
 }
 
-.card {
-    height: 300px;
-    width: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border: 1px solid #edecec;
-    padding: 0 20px;
-}
-
-.card:hover {
-    border-color: #feb633;
-}
-
-.card h3 {
-    color: #32333c;
-    margin: 10px 0;
-}
-
 .secaoExperienciaTrabalhoInfo {
     margin: 60px 0;
-}
-
-.card p {
-    color: #8a8fa3;
-    font-size: 12px;
-}
-
-.card p:last-child {
-    margin-top: 20px;
 }
 
 
@@ -77,16 +49,8 @@
         flex-direction: column;
     }
 
-    .card {
-        width: auto;
-    }
-
     .secaoExperienciaTrabalhoInfo p {
         margin: 0 10px;
-        font-size: 14px;
-    }
-
-    .card p {
         font-size: 14px;
     }
 }
