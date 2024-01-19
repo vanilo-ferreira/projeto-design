@@ -4,9 +4,13 @@
 }
 
 .imagemBanner {
-    background: no-repeat url("../../assets/banner.png") center / contain;
+    background: no-repeat url("../../assets/banner.png") center / cover;
     min-height: 80vh;
     min-width: 50%;
+}
+
+.imagemBanner-dark {
+    background-color: #252525;
 }
 
 .secaoBannerInformacoes {

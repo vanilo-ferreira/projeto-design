@@ -3,7 +3,7 @@ import "./style.css";
 const SecaoBanner = () => {
     return (
         <section className="secaoBanner">
-            <div className="imagemBanner"></div>
+            <div className="imagemBanner imagemBanner-dark "></div>
             <div className="secaoBannerInformacoes">
                 <div>
                     <p>BRANDING / UI / UX / TECNOLOGIA</p>
