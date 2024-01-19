@@ -4,21 +4,44 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 1px solid #edecec;
+    border-style: solid;
+    border-width: 1px;
     padding: 0 20px;
+}
+
+.card-light {
+    border-color: #edecec;
+}
+
+.card-dark {
+    border-color: #ffffff0d;
 }
 
 .card:hover {
     border-color: #feb633;
 }
 
-.card h3 {
+.subtitulo-light {
     color: #32333c;
+}
+
+.subtitulo-dark {
+    color: #ffffff;
+}
+
+.paragrafo-light{
+    color: #8a8fa3;
+}
+
+.paragrafo-dark{
+    color: #9F9F9F;
+}
+
+.card h3 {
     margin: 10px 0;
 }
 
 .card p {
-    color: #8a8fa3;
     font-size: 12px;
 }
 
