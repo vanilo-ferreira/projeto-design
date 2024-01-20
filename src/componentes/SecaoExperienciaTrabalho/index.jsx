@@ -1,12 +1,14 @@
 import "./style.css";
 import Card from "../Card";
 
-const SecaoExperienciaTrabalho = () => {
+const SecaoExperienciaTrabalho = (props) => {
     return (
-        <section className="secaoExperienciaTrabalho bg-dark">
+        <section className={props.state ? "secaoExperienciaTrabalho bg-dark" : "secaoExperienciaTrabalho bg-light"}>
             <div className="secaoExperienciaTrabalhoInfo">
-                <h2 className="color-dark">Experiências De Trabalho</h2>
-                <p className="color-dark">
+                <h2 className={props.state ? "color-dark" : "subtitulo-color-light"}>
+                    Experiências De Trabalho
+                </h2>
+                <p className={props.state ? "color-dark" : "paragrafo-color-light"}>
                     Há mais de 10 anos no mercado de Branding, Design Gráfico, Criação de Sites e Marketing Digital,
                     nos empenhamos diariamente para entregar resultados que tragam impacto aos nossos clientes.
                 </p>
@@ -15,6 +17,7 @@ const SecaoExperienciaTrabalho = () => {
             <div className="grupoCards">
 
                 <Card
+                    state={props.state}
                     periodo="JUNHO 2012- 2016"
                     funcao="Web Designer"
                     empresa="Pied Piperr StartUp"
@@ -22,6 +25,7 @@ const SecaoExperienciaTrabalho = () => {
                 />
 
                 <Card
+                    state={props.state}
                     periodo="AGOSTO 2016- 2019"
                     funcao="Product Designer"
                     empresa="E Corp."
@@ -29,6 +33,7 @@ const SecaoExperienciaTrabalho = () => {
                 />
 
                 <Card
+                    state={props.state}
                     periodo="FEVEREIRO 2019- 2021"
                     funcao="Digital Consulting"
                     empresa="Arasaka Inc."

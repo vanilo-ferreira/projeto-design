@@ -8,9 +8,9 @@ import IconeDribble from '../../assets/dribble.png';
 import IconeBehance from '../../assets/behance.png';
 import IconeGooglePlus from '../../assets/google-plus.png';
 
-const Rodape = () => {
+const Rodape = (props) => {
     return (
-        <footer className="rodape-dark">
+        <footer className={props.state ? "rodape-dark" : "rodape-light"}>
             <img src={Logo} alt="logomarca" />
             <p>Ajudamos a criar uma personalidade digital construindo sua marca no ambiente online utizando estratégias, ferramentas e tecnologias personalizadas.</p>
 
@@ -23,7 +23,7 @@ const Rodape = () => {
                 <img src={IconeGooglePlus} alt="Icone Google+" />
             </div>
 
-            <p className="borda-dark">Copyright 2024 &copy; <span className="nomeDev">Vanilo Ferreira</span></p>
+            <p className={props.state ? "borda-dark" : ""}>Copyright 2024 &copy; <span className="nomeDev">Vanilo Ferreira</span></p>
         </footer>
     )
 };

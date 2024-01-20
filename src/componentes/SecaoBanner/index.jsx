@@ -1,9 +1,9 @@
 import "./style.css";
 
-const SecaoBanner = () => {
+const SecaoBanner = (props) => {
     return (
         <section className="secaoBanner">
-            <div className="imagemBanner imagemBanner-dark "></div>
+            <div className={props.state ? "imagemBanner imagemBanner-dark" : "imagemBanner imagemBanner-light"}></div>
             <div className="secaoBannerInformacoes">
                 <div>
                     <p>BRANDING / UI / UX / TECNOLOGIA</p>

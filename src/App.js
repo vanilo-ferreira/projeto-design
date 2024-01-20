@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css';
 
 import Topo from './componentes/Topo';
@@ -8,12 +8,15 @@ import Rodape from './componentes/Rodape';
 
 
 function App() {
+
+  const [estiloAtualizado, setEstiloAtualizado] = useState(true);
+
   return (
     <div className="">
-      <Topo />
-      <SecaoBanner />
-      <SecaoExperienciaTrabalho />
-      <Rodape />
+      <Topo state={estiloAtualizado} setState={setEstiloAtualizado}/>
+      <SecaoBanner state={estiloAtualizado}/>
+      <SecaoExperienciaTrabalho state={estiloAtualizado}/>
+      <Rodape state={estiloAtualizado}/>
     </div>
   );
 }
