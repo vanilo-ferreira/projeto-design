@@ -10,7 +10,7 @@ import IconeGooglePlus from '../../assets/google-plus.png';
 
 const Rodape = () => {
     return (
-        <footer>
+        <footer className="rodape-dark">
             <img src={Logo} alt="logomarca" />
             <p>Ajudamos a criar uma personalidade digital construindo sua marca no ambiente online utizando estratégias, ferramentas e tecnologias personalizadas.</p>
 
@@ -23,7 +23,7 @@ const Rodape = () => {
                 <img src={IconeGooglePlus} alt="Icone Google+" />
             </div>
 
-            <p>Copyright 2024 &copy; <span className="nomeDev">Vanilo Ferreira</span></p>
+            <p className="borda-dark">Copyright 2024 &copy; <span className="nomeDev">Vanilo Ferreira</span></p>
         </footer>
     )
 };
