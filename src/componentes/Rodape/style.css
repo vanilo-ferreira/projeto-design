@@ -6,7 +6,6 @@
     background-color: #252525;
 }
 
-
 footer img {
     height: auto;
     width: auto;
@@ -48,7 +47,6 @@ footer p:last-child {
     border-top: solid 1px #ffffff0d;
     min-width: 100%
 }
-
 
 @media (max-width: 738px) {
     footer {
